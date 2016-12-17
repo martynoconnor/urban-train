@@ -274,5 +274,3 @@ echo "Script completed. You can check your firewall now by running the command i
 script_end=`date +%s`
 script_runtime=$((script_end-script_start))
 echo "Total runtime was " $script_runtime " seconds"
-#echo "Implementing all that..."
-#/sbin/iptables-restore < /etc/iptables/firewall.rules
